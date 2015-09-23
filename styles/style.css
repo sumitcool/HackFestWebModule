@@ -1,0 +1,172 @@
+body {
+	margin: 0px;
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white;
+}
+
+#header {
+  background-color: black;
+  color:white;
+  text-align: center;
+  padding: 5px;
+}
+
+#footer {
+  background-color: black;
+  color:white;
+  height: 40px;
+  text-align: center;
+}
+
+.image-style {
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+}
+
+h3 {
+	margin-top: 5px;
+	margin-left: 40px;
+	color: black;
+}
+
+h4 {
+	margin-left: 30px;
+}
+
+.mybody {
+	background-color: white;
+  border:2px solid #eeeeee;
+  margin-top: 0px;
+}
+
+#progressbar {
+  background-color: #DFE4E6;
+  border-radius: 13px; /* (height of inner div) / 2 + padding */
+  padding: 1px;
+  width: 260px;
+  margin-top: -15px;
+  margin-left: 5px;
+}
+
+#progressbar > div {
+   background-color: red;
+   width: 66%; /* Adjust with JavaScript */
+   height: 8px;
+   border-radius: 3px;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+.links {
+	margin-left: 12px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input[type=checkbox] {
+	display: none;
+}
+
+input[type=checkbox] + label:before {
+    content: "";  
+    display: inline-block;  
+    width: 20px;  
+    height: 20px;  
+    vertical-align:middle;
+    margin-right: 8px;  
+    margin-bottom: 5px;
+    background-color: #0a0;  
+    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+    border-radius: 12px;  
+}
+
+input[type=checkbox]:checked + label:before {
+    content:"\2714"; /* Tick */
+    color:white;
+    background-color: #0a0; 
+    text-align:center;
+    line-height:22px;
+    text-shadow:0px 0px 3px #eee;
+}
+
+.btn {
+  border-radius: 0px;
+  width: 200px;
+  color: #666666;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-alt {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+	color: #ffffff;
+	background-color: #0BB2D4;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+#nav {
+  width:280px;
+  float: left;
+  background-color: white;
+  border: 2px solid #dddddd;
+}
+
+#section {
+  margin-top: -20px;
+  margin-left: 280px;
+  padding-left: 20px;
+}
+
+.cen {
+  float:center;
+  margin-top: 30px;
+  margin-left: 300px;
+  font-weight: normal;
+  font-family: sans-serif;
+}
+
+.trip {
+  float: left;
+  margin-top: 4px;
+  font-weight: normal;
+  color: #0BB2D4;
+}
+
+table {
+  border-collapse: collapse;
+  border-left: none;
+  border-right: none;
+}
+
+th , td {
+  border-left: none;
+  border-right: none;
+  text-align: left;
+  width: 150px;
+  height: 35px;
+  padding: 5px;
+}
+
+tr:hover {
+  background-color: #CFFFFC;
+}
