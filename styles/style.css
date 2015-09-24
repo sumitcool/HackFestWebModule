@@ -15,7 +15,8 @@ body {
 #footer {
   background-color: black;
   color:white;
-  height: 40px;
+  font-size: 6pt;
+  height: 25px;
   text-align: center;
 }
 
@@ -169,4 +170,59 @@ th , td {
 
 tr:hover {
   background-color: #CFFFFC;
+}
+
+
+form {
+  margin-left: 40%;
+  width: 270px;
+  height: 230px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid #999999;
+  -webkit-box-shadow: -12px 10px 7px -1px rgba(87,87,87,0.79);
+  -moz-box-shadow: -12px 10px 7px -1px rgba(87,87,87,0.79);
+  box-shadow: -12px 10px 7px -1px rgba(87,87,87,0.79);
+}
+
+hr {
+  height: 10px;
+  background-color: #CD73FA;
+}
+
+.labelstyle {
+  float: left;
+  padding: 8px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.input-text {
+  width: 250px;
+  height: 25px;
+  border-radius: 6px;
+  background-color: #eeeeee;
+}
+
+.input-btn {
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  background-color: #eeeeee;
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+}
+
+.sign {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #6F96A3;
+  color: white;
+  font-size: 18pt;
+  padding: 5px;
+  padding-left: 15px;
 }
